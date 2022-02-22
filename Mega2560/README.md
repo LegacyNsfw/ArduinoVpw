@@ -10,8 +10,12 @@ The ThanielPlusLedShield directory contains basically the same thing but with so
 messages on an Adafruit 5x8 RGB LED shield. It's not tremendously useful but it is kind of have some hint
 about what's happening on the VPW bus.
 
-Thaniel's original code was able to read the flash memory of a PCM, but this version is missing some key
-pieces for that. It worked well enough that I'm tempted to tidy up the code into something a bit more
-readable and maintainable, but... too many projects, too little time.
+I have never used this code to send VPW messages, but Thaniel's original code was able to read the flash
+memory of a PCM, so it seemed to work pretty well. This version is missing a flash kernel (M68k code that
+gets uploaded to the PCM) so it won't be usable as a flash tool, but in theory sending messges would work
+if you build the sheild as depicted in the PNG file.
+
+The video demo of reading flash memory worked well enough that I'm tempted to tidy up the code into 
+something a bit more readable and maintainable, but... too many projects, too little time.
 
 Some context: https://pcmhacking.net/forums/viewtopic.php?f=4&t=1566&start=235
