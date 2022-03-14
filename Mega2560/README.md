@@ -7,8 +7,8 @@ Those projects eventually turned into LS Droid and PCM Hammer.
 I relied on the bus monitoring extensively during the development of PCM Hammer.
 
 The ThanielPlusLedShield directory contains basically the same thing but with some added code to visualize
-messages on an Adafruit 5x8 RGB LED shield. It's not tremendously useful but it is kind of have some hint
-about what's happening on the VPW bus.
+messages on an Adafruit 5x8 RGB LED shield. It's not tremendously useful, but it is kind of nice to have
+some hint about what (if anything) is happening on the VPW bus.
 
 I have never used this code to send VPW messages, but Thaniel's original code was able to read the flash
 memory of a PCM, so it seemed to work pretty well. This version is missing a flash kernel (M68k code that
